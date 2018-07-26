@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:icon="@drawable/ic_home_24px"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/item_my_profile"
+            android:icon="@drawable/ic_profile_24px"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/item_events"
+            android:icon="@drawable/ic_events_24px"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/item_favorites"
+            android:icon="@drawable/ic_favorites_24px"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/item_inbox"
+            android:icon="@drawable/ic_inbox_24px"
+            android:title="@string/inbox" />
+    </group>
+
+    <group
+        android:id="@+id/group_info"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_contact_us"
+            android:icon="@drawable/ic_contact_us_24px"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/item_feedback"
+            android:icon="@drawable/ic_feedback_24px"
+            android:title="@string/feedback" />
+        <item
+            android:id="@+id/item_settings"
+            android:icon="@drawable/ic_settings_20px"
+            android:title="@string/settings" />
+    </group>
+
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="@string/dashboard">
+        <menu>
+            <item
+                android:id="@+id/item_my_school"
+                android:icon="@drawable/ic_my_school_24px"
+                android:title="@string/my_school" />
+            <item
+                android:id="@+id/item_add_school"
+                android:icon="@drawable/ic_add_school_24px"
+                android:title="@string/add_school" />
+            <item
+                android:id="@+id/item_info"
+                android:icon="@drawable/ic_info_24px"
+                android:title="@string/info" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+</menu>
